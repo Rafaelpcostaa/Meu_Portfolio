@@ -2,6 +2,9 @@ import entretenimentoImage from '../img/Entrertanimento-Web.jpg';
 import TelaInicialImage from '../img/Tela-Inicial.jpg';
 import Login from '../img/LoginImage.jpg';
 import Cadastro from '../img/CadastroImage.jpg';
+import Quiz from '../img/QuizPython.jpg';
+import Calculadora from '../img/Calculadora.jpg';
+import HotelWorld from '../img/HotelWorld3.png';
 
 const profile = {
   name: 'Rafael Costa',
@@ -37,6 +40,24 @@ const projects = [
     url: 'https://github.com/Rafaelpcostaa/Tela_Inicial.git',
   },
   {
+    title: 'Calculadora',
+    type: 'Educação',
+    description:
+      'É uma Calculadora simples, mas funcional, que permite aos usuários realizar operações matemáticas básicas de forma rápida e eficiente. A calculadora possui uma interface intuitiva, com botões claramente identificados para cada operação, facilitando a interação do usuário. Além disso, ela oferece recursos adicionais, como a capacidade de lidar com números decimais e realizar cálculos consecutivos sem a necessidade de reiniciar a aplicação.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    image: Calculadora,
+    url: 'https://github.com/Rafaelpcostaa/Calculadora.git',
+  },
+  {
+    title: 'Hotel World',
+    type: 'Aplicativo de Hospedagem',
+    description:
+      'É um aplicativo de hospedagem que permite aos usuários pesquisar e reservar quartos em hotéis. O aplicativo oferece uma interface intuitiva, com opções de filtro e ordenação para facilitar a busca por alojamentos adequados. Além disso, ele inclui recursos como avaliações de hotéis, fotos, e informações detalhadas sobre as comodidades disponíveis.',
+    technologies: ['Flutter', 'Dart',],
+    image: HotelWorld,
+    url: 'https://github.com/Rafaelpcostaa/Calculadora.git',
+  },
+  {
     title: 'Login',
     type: 'Visualização',
     description:
@@ -53,6 +74,15 @@ const projects = [
     technologies: ['React', 'Vite', 'HTML','CSS', 'JavaScript'],
     image: Cadastro,
     url: 'https://github.com/Rafaelpcostaa/Cadastro',
+  },
+  {
+    title: 'Quiz em Python',
+    type: 'Programação',
+    description:
+      'Utilizando a Linguagem Python, foi criado um Quiz de perguntas e respostas sem a necessidade de uma interface gráfica, apenas no terminal. O Quiz é projetado para testar o conhecimento dos usuários em diferentes tópicos, oferecendo uma experiência interativa e envolvente. Ele apresenta uma série de perguntas de múltipla escolha, permitindo que os usuários selecionem suas respostas e recebam feedback imediato sobre seu desempenho.',
+    technologies: ['Python',],
+    image: Quiz,
+    url: 'https://github.com/Rafaelpcostaa/Quiz.git',
   },
 ]
 
