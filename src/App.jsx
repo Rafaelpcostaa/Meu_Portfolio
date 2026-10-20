@@ -97,8 +97,7 @@ function App() {
               Mais ideias em desenvolvimento.
             </p>
             <p className="project-repository-note">
-              <span aria-hidden="true">↗</span>
-              Clique no ícone para abrir o repositório do projeto no GitHub.
+              Clique no ícone <span aria-hidden="true">↗</span> para abrir o repositório do projeto no GitHub.
             </p>
           </div>
           <div className="project-grid">
