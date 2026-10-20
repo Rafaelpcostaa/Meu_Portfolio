@@ -88,18 +88,19 @@ function App() {
             <div>
               <p className="eyebrow">CÓDIGO QUE RESOLVE PROBLEMAS</p>
               <h2>Projetos<span className="accent">.</span></h2>
+              <br />
               <p className="section-intro">
+              Alguns projetos que construí.
+              <br />
+              Mais ideias em desenvolvimento.
+              </p>
+            </div>
+            <p className="section-intro">
                 <br />
                 Clique na indicação (↗) para
                 <br />
                 acessar o repositório no GitHub.
               </p>
-            </div>
-            <p className="section-intro">
-              Alguns projetos que construí.
-              <br />
-              Mais ideias em desenvolvimento.
-            </p>
           </div>
           <div className="project-grid">
             {projects.map((project, index) => (
