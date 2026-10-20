@@ -1,6 +1,8 @@
 import ProjectPreview from './projectPeview';
 
 function ProjectCard({ project, index, total }) {
+  const hasLiveSite = Boolean(project.siteUrl);
+
   return (
     <article className="project-card">
       <a
@@ -38,6 +40,24 @@ function ProjectCard({ project, index, total }) {
             <li key={technology}>{technology}</li>
           ))}
         </ul>
+        {hasLiveSite ? (
+          <a
+            className="project-site-button is-available"
+            href={project.siteUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Acessar Site
+          </a>
+        ) : (
+          <button
+            className="project-site-button is-unavailable"
+            type="button"
+            disabled
+          >
+            Indisponível
+          </button>
+        )}
       </div>
     </article>
   )

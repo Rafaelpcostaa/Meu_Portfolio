@@ -29,6 +29,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     image: entretenimentoImage,
     url: 'https://github.com/Rafaelpcostaa/Entreterimento-Web-Prototipo',
+    siteUrl: '',
   },
   {
     title: 'Tela Inicial do EconFinder',
@@ -38,6 +39,7 @@ const projects = [
     technologies: ['React', 'Vite', 'HTML', 'CSS', 'JavaScript'],
     image: TelaInicialImage,
     url: 'https://github.com/Rafaelpcostaa/Tela_Inicial.git',
+    siteUrl: '',
   },
   {
     title: 'Calculadora',
@@ -47,6 +49,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     image: Calculadora,
     url: 'https://github.com/Rafaelpcostaa/Calculadora.git',
+    siteUrl: '',
   },
   {
     title: 'Hotel World',
@@ -56,24 +59,17 @@ const projects = [
     technologies: ['Flutter', 'Dart',],
     image: HotelWorld,
     url: 'https://github.com/Rafaelpcostaa/Calculadora.git',
+    siteUrl: 'https://mega.nz/file/yCBAGB6I#_04qPUxyOBaClln0bvZtp3puh_DlGgxT5Ygnn3N2y18',
   },
   {
     title: 'Login',
     type: 'Visualização',
     description:
-      'É um Protótipo em Login, que possui a facilidade de fazer um login e flexibilidade. Mesmo sendo Simples, ele possui alguns efeitos muitos interessantes, como a animação do botão de login, que é ativada quando o usuário passa o mouse sobre ele. Além disso, o protótipo também possui uma validação de formulário, que garante que os usuários preencham corretamente os campos obrigatórios antes de enviar o formulário. P.S.S: O protótipo não possui funcionalidades avançadas, mas serve como uma demonstração do conceito e da ideia por trás do projeto.',
-    technologies: ['React', 'Vite','HTML','CSS', 'JavaScript'],
-    image: Login,
-    url: 'https://github.com/Rafaelpcostaa/Login',
-  },
-  {
-    title: 'Cadastro',
-    type: 'Visualização',
-    description:
-      'É um Protótipo de Cadastro retirado no TCC, que permite aos usuários criar contas e gerenciar suas informações. O protótipo oferece uma interface simples e intuitiva, facilitando o processo de registro. P.S.S: O protótipo não possui funcionalidades avançadas, mas serve como uma demonstração do conceito e da ideia por trás do projeto.',
+      'Como parte do TCC, foi desenvolvida uma interface de autenticação flexível e de fácil usabilidade. A tela possui design minimalista aliado a recursos interativos, destacando-se as animações de foco nos campos de entrada de credenciais. O sistema conta ainda com validação de formulário, assegurando a integridade dos dados obrigatórios antes da submissão. O protótipo atual atua como uma demonstração conceitual, validando a lógica de interface e a arquitetura visual proposta para o projeto.',
     technologies: ['React', 'Vite', 'HTML','CSS', 'JavaScript'],
     image: Cadastro,
     url: 'https://github.com/Rafaelpcostaa/Cadastro',
+    siteUrl: 'https://cadastro-blush.vercel.app/',
   },
   {
     title: 'Quiz em Python',
@@ -83,6 +79,7 @@ const projects = [
     technologies: ['Python',],
     image: Quiz,
     url: 'https://github.com/Rafaelpcostaa/Quiz.git',
+    siteUrl: '',
   },
 ]
 

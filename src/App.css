@@ -983,6 +983,46 @@ ul {
   font: 8px var(--mono);
 }
 
+.project-site-button {
+  min-height: 34px;
+  margin-top: 14px;
+  padding: 0 13px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #0b1110;
+  font: 600 10px var(--mono);
+  text-decoration: none;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease;
+}
+
+.project-site-button.is-available {
+  border-color: #58d68d;
+  background: #58d68d;
+}
+
+.project-site-button.is-available:hover {
+  transform: translateY(-2px);
+  border-color: #75e6a3;
+  background: #75e6a3;
+}
+
+.project-site-button.is-unavailable {
+  border-color: #e05b61;
+  background: #e05b61;
+  cursor: not-allowed;
+}
+
+.project-site-button:focus-visible {
+  outline: 2px solid #e8eaf1;
+  outline-offset: 3px;
+}
+
 .about-section {
   padding: 79px 0 66px;
   border-block: 1px solid var(--border);
