@@ -489,10 +489,6 @@ ul {
   text-align: right;
 }
 
-.project-repository-note span {
-  color: var(--green);
-}
-
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
